@@ -21,4 +21,4 @@ cd frontend-project-44/
 make install
 ```
 
-<script async id="asciicast-569727" src="https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU"></script>
+[![asciicast](https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU.svg)](https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU)
