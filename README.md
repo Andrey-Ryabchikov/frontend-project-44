@@ -14,3 +14,9 @@
     <li>Склонировать репозиторий</li>
     <li>Выполнить команду make install</li>
 </ol>
+
+```
+git clone https://github.com/Andrey-Ryabchikov/frontend-project-44.git
+cd frontend-project-44/
+make install
+```
