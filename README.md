@@ -20,3 +20,5 @@ git clone git@github.com:Andrey-Ryabchikov/frontend-project-44.git
 cd frontend-project-44/
 make install
 ```
+
+<script async id="asciicast-569727" src="https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU"></script>
