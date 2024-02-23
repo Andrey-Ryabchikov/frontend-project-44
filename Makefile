@@ -11,6 +11,9 @@ brain-even:
 brain-calc: 
 	node bin/brain-calc.js
 
+brain-qcd: 
+	node bin/brain-qcd.js
+
 lint:
 	npx eslint .
 
