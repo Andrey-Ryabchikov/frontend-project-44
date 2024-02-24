@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import playQcd from '../src/games/gcd.js';
+import playQcd from '../src/games/qcd.js';
 
 playQcd();
