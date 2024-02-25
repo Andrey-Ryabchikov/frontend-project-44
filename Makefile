@@ -14,6 +14,9 @@ brain-calc:
 brain-qcd: 
 	node bin/brain-qcd.js
 
+brain-progression: 
+	node bin/brain-progression.js
+
 lint:
 	npx eslint .
 
