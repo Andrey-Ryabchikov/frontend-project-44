@@ -15,23 +15,23 @@ const newProgression = (start, step, length, index) => {
 const gameRules = 'What is the result of the expression?';
 
 const progressionGame = () => {
-    const getQuestionAndAnswer = () => {
-      const progressionStart = getRandomNumber(20) + 1; 
-      const progressionStep = getRandomNumber(5) + 1; 
-      const progressionLength = getRandomNumber(10) + 5; 
-      const index = getRandomNumber(progressionLength); 
-      const correctAnswer = String(progressionStart + index * progressionStep);
-      const question = newProgression(
-        progressionStart,
-        progressionStep,
-        progressionLength,
-        index,
-      );
-  
-      return { question: `${question}`, answer: correctAnswer };
-    };
-  
-    runGame(gameRules, getQuestionAndAnswer);
+  const getQuestionAndAnswer = () => {
+    const progressionStart = getRandomNumber(20) + 1;
+    const progressionStep = getRandomNumber(5) + 1;
+    const progressionLength = getRandomNumber(10) + 5;
+    const index = getRandomNumber(progressionLength);
+    const correctAnswer = String(progressionStart + index * progressionStep);
+    const question = newProgression(
+      progressionStart,
+      progressionStep,
+      progressionLength,
+      index,
+    );
+
+    return { question: `${question}`, answer: correctAnswer };
   };
-  
-  export default progressionGame;
+
+  runGame(gameRules, getQuestionAndAnswer);
+};
+
+export default progressionGame;

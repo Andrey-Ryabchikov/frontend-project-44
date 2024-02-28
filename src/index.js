@@ -1,7 +1,6 @@
 import readlineSync from 'readline-sync';
 import greet from './cli.js';
 
-
 export const runGame = (gameRules, getQuestionAndAnswer) => {
   const userName = greet();
   console.log(gameRules);
@@ -22,6 +21,5 @@ export const runGame = (gameRules, getQuestionAndAnswer) => {
 
   console.log(`Congratulations, ${userName}!`);
 };
-
 
 export const getRandomNumber = (max) => Math.floor(Math.random() * max);

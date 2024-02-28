@@ -1,6 +1,5 @@
 import { getRandomNumber, runGame } from '../index.js';
 
-
 const calculate = (num1, num2, operation) => {
   switch (operation) {
     case '+':
@@ -23,13 +22,11 @@ const playCalcGame = () => {
     const num1 = getRandomNumber(10);
     const num2 = getRandomNumber(10);
 
-    
     const operation = operations[getRandomNumber(operations.length)];
     const question = `${num1} ${operation} ${num2}`;
 
     const answer = String(calculate(num1, num2, operation));
 
-    
     return { question, answer };
   };
 
