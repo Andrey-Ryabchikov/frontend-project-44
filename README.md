@@ -22,3 +22,13 @@ make install
 ```
 
 [![asciicast](https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU.svg)](https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU)
+
+# Проверка на чётность
+
+# Калькулятор
+
+# НОД
+
+# Арифметическая прогрессия
+
+
