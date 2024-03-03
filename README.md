@@ -7,11 +7,12 @@
 
 # Описание
 Это мой первый проект в Hexlet - «Игры разума».
-Проект состоит из пяти консольных игр, который работает в среде Node JS.
+Проект состоит из пяти консольных игр, которые работают в среде Node JS.
 
 # Установка
 <ol>
     <li>Склонировать репозиторий</li>
+    <li>Перейти в директорию frontend-project-44/<li>
     <li>Выполнить команду make install</li>
 </ol>
 
@@ -21,14 +22,21 @@ cd frontend-project-44/
 make install
 ```
 
-[![asciicast](https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU.svg)](https://asciinema.org/a/1BbpbaZxXiU4UWwQdudbkDSZU)
+[![asciicast](https://asciinema.org/a/u4MWvN8Mb4dKMlBFHYhLhJGhJ.svg)](https://asciinema.org/a/u4MWvN8Mb4dKMlBFHYhLhJGhJ)
 
-# Проверка на чётность
+## Проверка на чётность
 
-# Калькулятор
+[![asciicast](https://asciinema.org/a/GYtxSDYIOwB1DqVNDpmL9ns0G.svg)](https://asciinema.org/a/GYtxSDYIOwB1DqVNDpmL9ns0G)
 
-# НОД
+## Калькулятор
 
-# Арифметическая прогрессия
+[![asciicast](https://asciinema.org/a/jO6nH4UEZFgICFOaLYBw7ZIl3.svg)](https://asciinema.org/a/jO6nH4UEZFgICFOaLYBw7ZIl3)
 
+## НОД
+
+[![asciicast](https://asciinema.org/a/9Kx6OjnqKZyTM7gPdZbfIRE5c.svg)](https://asciinema.org/a/9Kx6OjnqKZyTM7gPdZbfIRE5c)
+
+## Арифметическая прогрессия
+
+[![asciicast](https://asciinema.org/a/9sd20TC9XvpVkOELzartFooaG.svg)](https://asciinema.org/a/9sd20TC9XvpVkOELzartFooaG)
 
