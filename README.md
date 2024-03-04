@@ -36,7 +36,10 @@ make install
 
 [![asciicast](https://asciinema.org/a/9Kx6OjnqKZyTM7gPdZbfIRE5c.svg)](https://asciinema.org/a/9Kx6OjnqKZyTM7gPdZbfIRE5c)
 
-## Арифметическая прогрессия
+"brain-gcd": "bin/brain-gcd.js",
 
 [![asciicast](https://asciinema.org/a/9sd20TC9XvpVkOELzartFooaG.svg)](https://asciinema.org/a/9sd20TC9XvpVkOELzartFooaG)
 
+## Игра "Простое ли число?"
+
+[![asciicast](https://asciinema.org/a/IHBdyDzCWcBQxkfBEraUIuJ5T.svg)](https://asciinema.org/a/IHBdyDzCWcBQxkfBEraUIuJ5T)
