@@ -12,7 +12,7 @@ const newProgression = (start, step, length, index) => {
   return progression.join(' ');
 };
 
-const gameRules = 'What is the result of the expression?';
+const gameRules = 'What number is missing in the progression?';
 
 const progressionGame = () => {
   const getQuestionAndAnswer = () => {
