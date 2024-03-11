@@ -3,9 +3,9 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/fde79cc98e1e586da0f2/maintainability)](https://codeclimate.com/github/Andrey-Ryabchikov/frontend-project-44/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/fde79cc98e1e586da0f2/test_coverage)](https://codeclimate.com/github/Andrey-Ryabchikov/frontend-project-44/test_coverage)
 
-# Описание
+# Проект "Игры разума"
+
 Это мой первый проект в Hexlet - «Игры разума».
 Проект состоит из пяти консольных игр, которые работают в среде Node JS.
 
