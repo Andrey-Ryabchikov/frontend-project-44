@@ -18,7 +18,7 @@ const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".
 
 const playPrime = () => {
   const getQuestionAndAnswer = () => {
-    const question = getRandomNumber(100);
+    const question = getRandomNumber(50);
     const correctAnswer = isPrime(question) ? 'yes' : 'no';
 
     return { question: `${question}`, answer: correctAnswer };
