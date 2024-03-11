@@ -12,7 +12,7 @@
 # Установка
 <ol>
     <li>Склонировать репозиторий</li>
-    <li>Перейти в директорию frontend-project-44/<li>
+    <li>Перейти в директорию frontend-project-44/</li>
     <li>Выполнить команду make install</li>
 </ol>
 
