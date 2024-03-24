@@ -14,7 +14,7 @@ const newProgression = (start, step, length, index) => {
 
 const gameRules = 'What number is missing in the progression?';
 
-const progressionGame = () => {
+const playProgressionGame = () => {
   const getQuestionAndAnswer = () => {
     const progressionStart = getRandomNumber(20) + 1;
     const progressionStep = getRandomNumber(5) + 1;
@@ -34,4 +34,4 @@ const progressionGame = () => {
   runGame(gameRules, getQuestionAndAnswer);
 };
 
-export default progressionGame;
+export default playProgressionGame;
