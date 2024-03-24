@@ -36,7 +36,7 @@ make install
 
 [![asciicast](https://asciinema.org/a/9Kx6OjnqKZyTM7gPdZbfIRE5c.svg)](https://asciinema.org/a/9Kx6OjnqKZyTM7gPdZbfIRE5c)
 
-"brain-gcd": "bin/brain-gcd.js",
+## Игра "Арифметическая прогрессия"
 
 [![asciicast](https://asciinema.org/a/9sd20TC9XvpVkOELzartFooaG.svg)](https://asciinema.org/a/9sd20TC9XvpVkOELzartFooaG)
 
