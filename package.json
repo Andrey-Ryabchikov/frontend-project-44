@@ -2,12 +2,12 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/Andrey-Ryabchikov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Andrey-Ryabchikov/frontend-project-44/actions)",
+  "description": "Brain Games is a project which consists of five console games. In each game, you need to give 3 correct answers in a row to pass it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Andrey Ryabchikov",
   "license": "ISC",
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -16,7 +16,6 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
-
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
