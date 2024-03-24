@@ -18,7 +18,7 @@ const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".
 
 const playPrime = () => {
   const getQuestionAndAnswer = () => {
-    const question = getRandomNumber(50);
+    const question = getRandomNumber(51);
     const correctAnswer = isPrime(question) ? 'yes' : 'no';
 
     return { question: `${question}`, answer: correctAnswer };
@@ -28,3 +28,14 @@ const playPrime = () => {
 };
 
 export default playPrime;
+
+// const getQuestionAndAnswer = (isConditionMet) => {
+//   const question = getRandomNumber(100);
+//   const correctAnswer = isConditionMet(question) ? 'yes' : 'no';
+//   return { question, correctAnswer };
+// };
+
+// const playEvenGame = () => {
+//   const { question, correctAnswer } = getQuestionAndAnswer(isEven);
+//   // Логика игры "четное число"
+// };
