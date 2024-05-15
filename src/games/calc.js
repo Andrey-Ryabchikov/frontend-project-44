@@ -1,16 +1,23 @@
-import { getRandomNumber, runGame } from '../index.js';
+import getRandomNumber from '../utils.js';
+import runGame from '../index.js';
+
 
 const calculate = (num1, num2, operation) => {
+  let result;
   switch (operation) {
     case '+':
-      return num1 + num2;
+      result = num1 + num2;
+      break;
     case '-':
-      return num1 - num2;
+      result = num1 - num2;
+      break;
     case '*':
-      return num1 * num2;
+      result = num1 * num2;
+      break;
     default:
-      return 'Your answer is not correct! Try again:)';
+      throw new Error(`Unknown operation: '${operation}'!`);
   }
+  return result;
 };
 
 const gameRules = 'What is the result of the expression?';
@@ -19,10 +26,11 @@ const playCalcGame = () => {
   const getQuestionAndAnswer = () => {
     const operations = ['+', '-', '*'];
 
-    const num1 = getRandomNumber(10);
-    const num2 = getRandomNumber(10);
+    const num1 = getRandomNumber(1, 10);
+    const num2 = getRandomNumber(1, 10);
 
-    const operation = operations[getRandomNumber(operations.length)];
+    const operationIndex = getRandomNumber(0, operations.length - 1);
+    const operation = operations[operationIndex];
     const question = `${num1} ${operation} ${num2}`;
 
     const answer = String(calculate(num1, num2, operation));
