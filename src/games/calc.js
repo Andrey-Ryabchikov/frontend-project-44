@@ -1,7 +1,6 @@
 import getRandomNumber from '../utils.js';
 import runGame from '../index.js';
 
-
 const calculate = (num1, num2, operation) => {
   let result;
   switch (operation) {

@@ -5,7 +5,7 @@
   "description": "Brain Games is a project which consists of five console games. In each game, you need to give 3 correct answers in a row to pass it",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "author": "Andrey Ryabchikov",
   "license": "ISC",

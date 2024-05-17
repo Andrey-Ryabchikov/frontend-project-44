@@ -22,4 +22,4 @@ const runGame = (gameRules, getQuestionAndAnswer) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default runGame; 
+export default runGame;
